@@ -15,10 +15,10 @@ pipeline{
         }
         stage("run multiple command"){
             steps{
-                echo "sh '''pwd
-                      ls 
-                      date
-                      cal'''"
+                sh '''pwd
+                ls 
+                date
+                cal'''
 
             }
             
